@@ -8,6 +8,7 @@ type ChatInitialValuesProps = {
   chatRoom: string | undefined
   setChatRoom: React.Dispatch<React.SetStateAction<string | undefined>>
   chats: {
+    link: string | undefined
     message: string
     id: string
     role: 'assistant' | 'user' | null
